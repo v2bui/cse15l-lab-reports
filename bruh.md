@@ -6,9 +6,7 @@
 ![Image](https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png)
 > my name is walter hartwell white
 * heisen
-* jesse
-* gus fring
-* marie shrader
+
 2. todd
 3. skyler
 4. lydia
