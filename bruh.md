@@ -19,3 +19,5 @@ theyre minerals marie
 ```
 happy birthday mr president
 ```
+[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](https://v2bui.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
