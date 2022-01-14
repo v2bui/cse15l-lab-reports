@@ -26,10 +26,11 @@ $ ssh cs15lwi22abc@ieng6.ucsd.edu
 `ls -lat`\
 `ls -a`\
 `ls <directory>` where `directory` is `/home/linux/ieng6/cs15lwi22/cs15lwi22abc` where abc is another person's username\
-`cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
-`cat /home/linux/ieng6/cs15lwi22/public/hello.txt`\
+`cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`\
+`cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 * Commands run on the remote computer may look like this:
 ![Image](SS4.png)
+
 * Now try these commands on your own computer. Log out by running the command `exit` or pressing Ctrl-D.
 ---
 ## 4. Moving Files with `scp`
@@ -38,7 +39,8 @@ $ ssh cs15lwi22abc@ieng6.ucsd.edu
 * Afterwards, in the terminal from the directory where the file was made, run this command (with abc replaced): `scp WhereAmI.java cs15lwi22abc@ieng6.ucsd.edu:~/  `
 * Put in your password like logging into `ssh`
 * Log into ieng6 with `ssh`, run the command `ls`, and you should see the file in your home directory
-* After doing this step, your terminal should look like this: ![Image](SS5.png)
+* After doing this step, your terminal should look like this: 
+![Image](SS5.png)
 ---
 ## 5. Setting an SSH Key
 * To remove the process of typing in our password every time we log in to `scp`, we can use `ssh` keys 
