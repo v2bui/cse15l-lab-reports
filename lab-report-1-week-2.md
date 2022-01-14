@@ -62,7 +62,7 @@ $ scp /Users/Lee/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 * Now that we can log into `ssh` without a password, we can easily run commands directly on the remote server
 * Putting a command in quotes at the end of an `ssh` command will do so. Try this:
 `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`\
-It should look something like this:
+It should look something like this:\
 ![Image](SS8.png)
 * Semicolons are also used to run multiple commands on the same line. Try this: `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`\
 It should look something like this:
