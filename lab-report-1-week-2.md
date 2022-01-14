@@ -28,9 +28,9 @@ $ ssh cs15lwi22abc@ieng6.ucsd.edu
 `ls <directory>` where `directory` is `/home/linux/ieng6/cs15lwi22/cs15lwi22abc` where abc is another person's username\
 `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`\
 `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
+* Try these commands on your own computer as well as the remote computer. Log out by running the command `exit` or pressing Ctrl-D.
 * Commands run on the remote computer may look like this:
 ![Image](SS4.png)
-* Now try these commands on your own computer. Log out by running the command `exit` or pressing Ctrl-D.
 ---
 ## 4. Moving Files with `scp`
 * To copy a file from your computer to a remote computer, you use the command `scp` - make sure to be logged out of ieng6!
@@ -46,7 +46,7 @@ $ ssh cs15lwi22abc@ieng6.ucsd.edu
 * To set this up, run this on your computer:
 ![Image](SS6.png)
 * Now, two new files were created on your system: the private key (id_rsa) and public key (id_rsa.pub), stored in the .ssh directory
-* To copy the public key to the `.ssh` directory of your user account on the server, run this on your computer (using your own username and path in the `scp` command):
+* To copy the public key to the `.ssh` directory of your user account on the server, run this on your computer (using your own username and path in the `scp` command). If done correctly, you should be able to log into `ssh` without a password!
 
 ```
 $ ssh cs15lwi22abc@ieng6.ucsd.edu
@@ -57,7 +57,6 @@ $ <logout>
 '# back on client'
 $ scp /Users/Lee/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-* Now try logging into `ssh`. You should be able to do that without a password!
 ---
 ## 6. Optimizing Remote Running
 * Now that we can log into `ssh` without a password, we can easily run commands directly on the remote server
