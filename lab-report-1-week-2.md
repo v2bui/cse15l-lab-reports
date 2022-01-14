@@ -30,7 +30,6 @@ $ ssh cs15lwi22abc@ieng6.ucsd.edu
 `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 * Commands run on the remote computer may look like this:
 ![Image](SS4.png)
-
 * Now try these commands on your own computer. Log out by running the command `exit` or pressing Ctrl-D.
 ---
 ## 4. Moving Files with `scp`
@@ -50,11 +49,11 @@ $ ssh cs15lwi22abc@ieng6.ucsd.edu
 * To copy the public key to the `.ssh` directory of your user account on the server, run this on your computer (using your own username and path in the `scp` command):
 ```
 $ ssh cs15lwi22abc@ieng6.ucsd.edu
-<Enter Password>
-# now on server
+'<Enter Password>'
+'# now on server'
 $ mkdir .ssh
 $ <logout>
-# back on client
+'# back on client'
 $ scp /Users/Lee/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 * Now, try logging into `ssh`. You should be able to without a password!
