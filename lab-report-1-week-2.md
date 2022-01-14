@@ -1,4 +1,4 @@
-# <center> **HOW TO LOG INTO A COURSE-SPECIFIC ACCOUNT ON ieng6** - Week 2 Lab Report </center>
+# <center> HOW TO LOG INTO A COURSE-SPECIFIC ACCOUNT ON ieng6 - Week 2 Lab Report </center>
 ## <center> Vuong Bui </center>
 ## 1. Installing VScode
 * Go to https://code.visualstudio.com/ 
@@ -47,6 +47,7 @@ $ ssh cs15lwi22abc@ieng6.ucsd.edu
 ![Image](SS6.png)
 * Now, two new files were created on your system: the private key (id_rsa) and public key (id_rsa.pub), stored in the .ssh directory
 * To copy the public key to the `.ssh` directory of your user account on the server, run this on your computer (using your own username and path in the `scp` command):
+
 ```
 $ ssh cs15lwi22abc@ieng6.ucsd.edu
 '<Enter Password>'
@@ -56,7 +57,7 @@ $ <logout>
 '# back on client'
 $ scp /Users/Lee/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-* Now, try logging into `ssh`. You should be able to without a password!
+* Now try logging into `ssh`. You should be able to do that without a password!
 ---
 ## 6. Optimizing Remote Running
 * Now that we can log into `ssh` without a password, we can easily run commands directly on the remote server
