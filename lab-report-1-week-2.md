@@ -1,7 +1,7 @@
 # <center> HOW TO LOG INTO A COURSE-SPECIFIC ACCOUNT ON ieng6 - Week 2 Lab Report </center>
 ## <center> Vuong Bui </center>
-## 1. Installing VScode
-* Go to https://code.visualstudio.com/ 
+## 1. Installing VSCode
+* Go to VSCode [here](https://code.visualstudio.com/) 
 * Download VSCode for your specific operating system
 * When installed and opened, it should look something like this: 
 ![Image](SS1.png)
