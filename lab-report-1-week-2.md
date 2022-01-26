@@ -66,4 +66,15 @@ It should look something like this:\
 * Use semicolons to run multiple commands on the same line. Try this: `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`\
 It should look something like this:
 ![Image](SS7.png)
+* Now putting these things together, we can save many keystrokes when coding, which will save us much time in the long run.\
+* For example, let's try compiling and running WhereAmI.java and exiting the remote server.\
+* ```
+$ ssh cs15lwi22abc@ieng6.ucsd.edu
+'# now on server'
+$ javac WhereAmI.java
+$ java WhereAmI
+exit # logout
+* ```
+* Without optimizing remote running, the number of keystrokes this took was 71.\
+* However, if we simply type `ssh cs15lwi22aaf@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"`, we get 68 keystrokes.
 ---
