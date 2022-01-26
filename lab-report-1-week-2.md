@@ -77,4 +77,3 @@ exit # logout
 ```
 * Without optimizing remote running, the number of keystrokes this took was 71.
 * However, if we simply type `ssh cs15lwi22aaf@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"`, we get 68 keystrokes.
----
