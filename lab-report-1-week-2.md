@@ -1,7 +1,7 @@
 # <center> HOW TO LOG INTO A COURSE-SPECIFIC ACCOUNT ON ieng6 - Week 2 Lab Report </center>
 ## <center> Vuong Bui </center>
-## 1. Installing VScode
-* Go to https://code.visualstudio.com/ 
+## 1. Installing VSCode
+* Go to VSCode [here](https://code.visualstudio.com/) 
 * Download VSCode for your specific operating system
 * When installed and opened, it should look something like this: 
 ![Image](SS1.png)
@@ -66,4 +66,13 @@ It should look something like this:\
 * Use semicolons to run multiple commands on the same line. Try this: `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`\
 It should look something like this:
 ![Image](SS7.png)
----
+* Now putting these things together, we can save many keystrokes when coding and running remotely, which will save us much time in the long run.
+* For example, let's try compiling and running WhereAmI.java on the remote server.
+```
+$ ssh cs15lwi22abc@ieng6.ucsd.edu
+'# now on server'
+$ javac WhereAmI.java
+$ java WhereAmI
+```
+* Without optimizing remote running, the number of keystrokes this took was 6 (assuming these lines have been typed previously).
+* However, if we simply type `ssh cs15lwi22aaf@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"`, we get 2 keystrokes since it's only one line.
