@@ -1,4 +1,4 @@
-# <center> HOW TO LOG INTO A COURSE-SPECIFIC ACCOUNT ON ieng6 - Week 2 Lab Report </center>
+# <center> HOW TO LOG INTO A COURSE-SPECIFIC ACCOUNT ON ieng6 - Week 2 Lab Report 1 </center>
 ## <center> Vuong Bui </center>
 ## 1. Installing VSCode
 * Go to VSCode [here](https://code.visualstudio.com/) 
