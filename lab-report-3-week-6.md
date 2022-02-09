@@ -2,10 +2,8 @@
 ## <center> Vuong Bui </center>
 ## Streamlining ssh Configuration
 1. **`.ssh/config` file and how it was edited:**
-![Image](SS3-1.png)
 ![Image](SS3-2.png)
-* In the first screenshot, I created a file called config using Notepad and saved it to my .ssh folder.
-* The second screenshot shows how I edited the file on Notepad and changed the alias to "login".
+* In the screenshot, I created a file called config using Notepad and saved it to my .ssh folder. I edited the file on Notepad and changed the alias to "login".
 
 2. **Logging in using the `ssh` command with my alias**
 ![Image](SS3-3.png)
