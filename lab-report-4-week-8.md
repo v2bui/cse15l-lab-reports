@@ -1,6 +1,6 @@
 # <center> Week 8 Lab Report 4 </center>
 ## <center> Vuong Bui </center>
-* [My Markdown-Parse Repository]  (https://github.com/v2bui/markdown-parse)
+* [My Markdown-Parse Repository](https://github.com/v2bui/markdown-parse)
 * [Reviewed Markdown-Parse Repository](https://github.com/AnniePhan02/CSE15L-Panther)
 ## Snippet #1 - My Implementation
 * What should be produced: 
