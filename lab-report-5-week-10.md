@@ -15,4 +15,4 @@
 * Result: ![Image](SS5-4.png)
 * Joe's implementation, `[moon.jpg]`, is correct because it catches the nested link within the brackets whereas my implementation does not.
 * ![Image](SS5-6.png)
-* In the isOfLinkForm method in my markdown-parse, the bug is that after finding the first open bracket, the code immediately looks for `](` without checking if there are any other open brackets before it.
+* In the isOfLinkForm method in my markdown-parse, the bug is that after finding the first open bracket, the code immediately looks for `](` without checking if there are any other open brackets before it. This causes the code to miss the nested link.
