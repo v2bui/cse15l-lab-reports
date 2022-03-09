@@ -13,6 +13,7 @@
 ## Test #2
 * Test: ![Image](SS5-5.png)
 * Result: ![Image](SS5-4.png)
-* Joe's implementation, `[moon.jpg]`, is correct because it catches the nested link within the brackets whereas my implementation does not.
+* Both implementations are incorrect because the link that should be returned is `/uri`. This is because this test is hyperlinking `/uri` to an image of `moon.jpg`.
 * ![Image](SS5-6.png)
-* In the isOfLinkForm method in my markdown-parse, the bug is that after finding the first open bracket, the code immediately looks for `](` without checking if there are any other open brackets before it. This causes the code to miss the nested link.
+* ![Image](SS5-7.png)
+* In the isOfLinkForm method in my markdown-parse (first image), the bug is that after finding the first open bracket, the code immediately looks for `](` without checking if there are any other open brackets before it. This causes the code to miss the nested image within the brackets. When looking at this while loop of Joe's getLinks method in his markdown-parse (second image), there is no check to see if there is a `!` before the brackets, which would make it an image rather than a link. Because of this, his code mistakes the image file as the link to be returned.
